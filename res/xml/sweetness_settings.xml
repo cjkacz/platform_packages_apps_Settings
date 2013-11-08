@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+        android:title="@string/sweetness_settings_title" >
+
+        <PreferenceScreen
+                android:key="clock_style_pref"
+                android:fragment="com.android.settings.sweetness.StatusBarClockStyle"
+                android:title="@string/status_bar_clock" />
+
+</PreferenceScreen>
