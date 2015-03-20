@@ -4,6 +4,22 @@
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Sweetness build date</string>
     <string name="build_date_default">2015-01-01-0000</string>
+
+    <!-- SWEETNESS SETTINGS -->
+    <string name="header_category_sweetness">Customizations</string>
+    <string name="sweetness_settings_title">Sweetness Settings</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="attention">Attention</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="default_string">Default</string>
+    <string name="additional_options_title">Additional options</string>
+    <string name="reset_message">Reset all entries to default?</string>
+    <string name="style_title">Style</string>
+    <string name="add">Add</string>
     
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>

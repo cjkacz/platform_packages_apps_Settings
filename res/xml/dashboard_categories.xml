@@ -71,6 +71,20 @@
 
     </dashboard-category>
 
+    <!-- CUSTOMIZATIONS -->
+    <dashboard-category
+            android:id="@+id/sweetness_section"
+            android:title="@string/header_category_sweetness" >
+
+        <!-- SWEETNESS SETTINGS -->
+        <dashboard-tile
+                android:id="@+id/sweetness_settings"
+                android:title="@string/sweetness_settings_title"
+                android:fragment="com.android.settings.sweetness.SweetnessSettings" 
+                />
+
+    </dashboard-category>
+
     <!-- DEVICE -->
     <dashboard-category
             android:id="@+id/device_section"

@@ -1989,6 +1989,10 @@
                 android:value="true" />
         </activity>
 
+        <!-- SWEETNESS STARTS HERE -->
+        <activity android:name=".sweetness.SweetnessSettings" />
+        <!-- SWEETNESS ENDS HERE -->
+
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
                 android:exported="false"
