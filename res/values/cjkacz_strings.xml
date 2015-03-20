@@ -9,6 +9,12 @@
     <string name="header_category_sweetness">Customizations</string>
     <string name="sweetness_settings_title">Sweetness Settings</string>
 
+    <!-- Statusbar native battery percent -->
+    <string name="general_string">General</string>
+    <string name="status_bar_title">Status bar</string>
+    <string name="status_bar_native_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_native_battery_percentage_summary">Show hidden percentage</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
