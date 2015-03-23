@@ -176,8 +176,9 @@
     <style name="Theme.SwitchBar.SubSettings" parent="@android:style/Theme.Material">
         <item name="switchBarMarginStart">@dimen/switchbar_subsettings_margin_start</item>
         <item name="switchBarMarginEnd">@dimen/switchbar_subsettings_margin_end</item>
-    </style>
         <item name="android:textColor">@color/exposed_primary_text_light</item>
+    </style>
+
     <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Material.Light.DialogWhenLarge">
         <!-- Explicitly override the background color. -->
         <item name="android:colorBackground">@color/exposed_bg_dark</item>
