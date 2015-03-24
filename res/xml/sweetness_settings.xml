@@ -8,4 +8,9 @@
                 android:key="status_bar"
                 android:fragment="com.android.settings.sweetness.StatusBarSettings"
                 android:title="@string/status_bar_title" />
+
+        <PreferenceScreen
+        android:fragment="com.android.settings.sweetness.NavigationBarSettings"
+        android:key="navigation_bar_general_category"
+        android:title="@string/navigation_bar_screen_title" />
 </PreferenceScreen>

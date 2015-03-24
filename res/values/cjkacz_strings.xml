@@ -42,6 +42,7 @@
 
     <!-- Recent apps category -->
     <string name="display_category_recents_options_title">Recent apps options</string>
+    <string name="navigation_bar_screen_title">Navigation bar</string>
 
     <!-- Status bar | Clock -->
     <string name="status_bar_clock">Clock and date</string>
