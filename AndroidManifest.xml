@@ -1990,7 +1990,7 @@
         </activity>
 
         <!-- SWEETNESS STARTS HERE -->
-        <activity android:name=".sweetness.SweetnessSettings" />
+        <activity android:name=".sweetness.Sweetness" />
         <!-- SWEETNESS ENDS HERE -->
 
         <receiver android:name=".widget.SettingsAppWidgetProvider"

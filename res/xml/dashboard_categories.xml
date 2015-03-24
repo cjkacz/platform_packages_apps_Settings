@@ -78,9 +78,9 @@
 
         <!-- SWEETNESS SETTINGS -->
         <dashboard-tile
-                android:id="@+id/sweetness_settings"
+                android:id="@+id/sweetness"
                 android:title="@string/sweetness_settings_title"
-                android:fragment="com.android.settings.sweetness.SweetnessSettings" 
+                android:fragment="com.android.settings.sweetness.Sweetness" 
                 />
 
        <dashboard-tile
