@@ -1,9 +1,13 @@
 package com.android.settings.sweetness;
 
 import android.os.Bundle;
+import android.os.UserHandle;
+import android.content.ContentResolver;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
+import android.preference.PreferenceScreen;
+import android.content.res.Resources;
 import android.preference.SwitchPreference;
 import android.provider.Settings;
 
@@ -42,7 +46,7 @@ public class NavigationBarSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-		} else if (preference == mRecentsClearAll) {
+        if (preference == mRecentsClearAll) {
             boolean show = (Boolean) objValue;
             Settings.System.putIntForUser(getActivity().getContentResolver(),
                     Settings.System.SHOW_CLEAR_ALL_RECENTS, show ? 1 : 0, UserHandle.USER_CURRENT);
@@ -60,7 +64,8 @@ public class NavigationBarSettings extends SettingsPreferenceFragment implements
 
         private void updateRecentsLocation(int value) {
         ContentResolver resolver = getContentResolver();
-        Resources res = getResources();+        int summary = -1;
+        Resources res = getResources();
+        int summary = -1;
 
         Settings.System.putInt(resolver, Settings.System.RECENTS_CLEAR_ALL_LOCATION, value);
 
