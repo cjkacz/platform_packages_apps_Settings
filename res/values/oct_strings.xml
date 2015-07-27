@@ -5,4 +5,5 @@
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Octos build date</string>
     <string name="build_date_default">2015-01-01-0000</string>
+
 </resources>

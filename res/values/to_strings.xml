@@ -18,4 +18,7 @@
 
     <string name="octos_settings_title">Tentacles</string>
 
+       <!-- BitSyko Layers -->
+    <string name="bitsyko_layers">Layers</string>
+
 </resources>
