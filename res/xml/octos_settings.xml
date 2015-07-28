@@ -19,6 +19,13 @@
     android:title="@string/octos_settings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+<!-- Status Bar --> 
+        <PreferenceScreen
+                android:key="clock_style_pref"
+                android:fragment="com.android.settings.octos.StatusBarClockStyle"
+                android:title="@string/status_bar_clock" 
+                android:icon="@drawable/ic_settings_extdesk_hidenavbar" />
+
 <!-- Layers -->
         <PreferenceScreen
                 android:id="@+id/bitsyko_layers"
