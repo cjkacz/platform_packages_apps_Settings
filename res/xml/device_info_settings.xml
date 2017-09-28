@@ -85,6 +85,12 @@
                 android:title="@string/fcc_equipment_id"
                 android:summary="@string/device_info_default"/>
 
+        <!-- OctOS version -->
+        <Preference
+                android:key="octos_version"
+                android:title="@string/octos_version"
+                android:summary="@string/octos_version_default"/>
+
         <!-- Device Baseband version -->
         <Preference
                 android:key="baseband_version"
@@ -96,6 +102,7 @@
                 android:key="kernel_version"
                 android:title="@string/kernel_version"
                 android:summary="@string/device_info_default"/>
+    
 
         <!-- Detailed build version -->
         <Preference
